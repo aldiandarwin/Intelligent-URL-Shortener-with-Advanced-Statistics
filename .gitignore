@@ -1,0 +1,50 @@
+# Ignore the vendor directory, as it contains dependencies
+/vendor
+
+# Ignore the storage directory, which may contain logs, cached files, etc.
+/storage
+
+# Ignore environment-specific files
+/.env
+/.env.*
+*.env
+
+# Ignore the Homestead.yaml file if you're using Laravel Homestead
+Homestead.yaml
+Homestead.json
+
+# Ignore the node_modules directory, as it contains Node.js dependencies
+/node_modules
+
+# Ignore the public/hot directory, which is used by Laravel Telescope
+/public/hot
+
+# Ignore the public/storage directory, which may be used for storing user-uploaded files
+/public/storage
+
+# Ignore the Mix-manifest file
+/mix-manifest.json
+
+# Ignore the npm-debug.log file
+npm-debug.log
+
+# Ignore the yarn-error.log file
+yarn-error.log
+
+# Ignore the PHPUnit configuration file
+/phpunit.xml
+
+# Ignore the composer.lock file
+/composer.lock
+
+# Ignore the .phpunit.result.cache file
+/.phpunit.result.cache
+
+# Ignore the .idea directory for PhpStorm
+/.idea
+
+# Ignore the Homestead directory
+Homestead
+
+# Ignore the Homestead Improved directory
+Homestead.yaml.example
